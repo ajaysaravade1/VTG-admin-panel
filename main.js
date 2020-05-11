@@ -16,7 +16,7 @@
                 check=false;
             }
         }
-        if(navigator.onLine && check==true){
+        if( check==true){
             var user=document.getElementById('email').value;
             var pass=document.getElementById('pass').value;
             console.log(user);
