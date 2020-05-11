@@ -30,7 +30,7 @@
 					<img src="images/img-01.png" alt="IMG">
 				</div>
 
-				<form class="login100-form validate-form" action="main.js">
+				<form class="login100-form validate-form">
 					<span class="login100-form-title">
 						Admin Login
 					</span>
@@ -52,7 +52,7 @@
 					</div>
 					
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn" >
+						<button class="login100-form-btn" onclick="check(this.form)">
 							Login
 						</button>
 					</div>
@@ -61,7 +61,7 @@
 
 					<div class="text-center p-t-136">
 						<a class="txt2" href="#">
-							Only For Admin Use..!!!
+							--Only For Admin Use..!!!
 							
 						</a>
 					</div>
@@ -70,7 +70,7 @@
 function check(form)
 {
  
- if(form.user.value == "admin" && form.pass.value == "admin")
+ if(form.user.value == "vtgadmin@gmail.com" && form.pass.value == "vtgadmin")
   {
     window.open('login_demo.html')
   }
@@ -79,6 +79,8 @@ function check(form)
    alert("Error Password or Username")
   }
 }
+				</script>
+					
 			</div>
 		</div>
 	</div>
