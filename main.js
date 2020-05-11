@@ -21,7 +21,7 @@
             var pass=document.getElementById('pass').value;
             console.log(user);
             console.log(pass);
-            alert(user);
+            winddow.alert(user);
             alert(pass);
             if(user.trim()=="vtgadmin@gmail.com" && pass.trim()=="vtgadmin")
             {
