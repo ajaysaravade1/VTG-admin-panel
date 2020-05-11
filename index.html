@@ -66,6 +66,19 @@
 						</a>
 					</div>
 				</form>
+				<script language="javascript">
+function check(form)
+{
+ 
+ if(form.user.value == "admin" && form.pass.value == "admin")
+  {
+    window.open('login_demo.html')
+  }
+ else
+ {
+   alert("Error Password or Username")
+  }
+}
 			</div>
 		</div>
 	</div>
