@@ -30,7 +30,7 @@
 					<img src="images/img-01.png" alt="IMG">
 				</div>
 
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" action="login_process.php" method="post" align="right">
 					<span class="login100-form-title">
 						Admin Login
 					</span>
@@ -52,7 +52,7 @@
 					</div>
 					
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn" onclick="check(this.form)">
+						<button class="login100-form-btn">
 							Login
 						</button>
 					</div>
@@ -61,26 +61,11 @@
 
 					<div class="text-center p-t-136">
 						<a class="txt2" href="#">
-							Only For Admin Use..!!!!
+							Only For admin Use..!!!
 							
 						</a>
 					</div>
-				</form>
-<script language="javascript">
-function check(form)
-{
- 
- if(form.user.value == "vtgadmin@gmail.com" && form.pass.value == "vtgadmin")
-  {
-    window.open('login_demo.html')
-  }
- else
- {
-   alert("Error Password or Username")
-  }
-}
-</script>
-					
+				</form>					
 			</div>
 		</div>
 	</div>
