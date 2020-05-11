@@ -6,25 +6,58 @@
         <title>
             Login
         </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		
+		
+	<style>	
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+	</style>
+		
+		
+		
+		
+		
+		
     </head>
     <body>
-      <h1>Cloud Cafe</h1>  
+      <h1><center>Places List</center></h1>  
       <div class="content">
         <form id="add_from_data"></form>
-        <ul id="school-list"></ul>
+        <center>
+		
+		<table id="name-list" font-family: "Trebuchet MS", Arial, Helvetica, sans-serif border-collapse: collapse width: 100%></table>
+		
+		
+		</center>
       </div>
 
 <script>
   // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyAyq3T-1jJrVuJWLggOac6uKLy4QlOO7S8",
-    authDomain: "data-4d97c.firebaseapp.com",
-    databaseURL: "https://data-4d97c.firebaseio.com",
-    projectId: "data-4d97c",
-    storageBucket: "data-4d97c.appspot.com",
-    messagingSenderId: "694523053850",
-    appId: "1:694523053850:web:470f68e96bf458f8f64ea3",
-    measurementId: "G-C2RN4QS202"
+ var firebaseConfig = {
+    apiKey: "AIzaSyAWmocPT9gCIKpOWTbi9qTG2fHYLpW-xlc",
+    authDomain: "virtualtouristguide-d9928.firebaseapp.com",
+    databaseURL: "https://virtualtouristguide-d9928.firebaseio.com",
+    projectId: "virtualtouristguide-d9928",
+    storageBucket: "virtualtouristguide-d9928.appspot.com",
+    messagingSenderId: "121246779402",
+    appId: "1:121246779402:web:a3c81119f9b9461b7fb7f3",
+    measurementId: "G-4VVY4HDSHE"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
@@ -33,7 +66,6 @@
 </script>
 
     
-    </script>
     <script src="app.js"></script>
     </body>
 </html>

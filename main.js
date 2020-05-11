@@ -22,7 +22,7 @@
             if(user.value.trim()=="vtgadmin@gmail.com" && pass.value.trim()=="vtgadmin")
             {
                 if(navigator.onLine){
-                    window.location.href = "https://www.google.com";
+                    window.location.href = "login_demo.html";
                }
             }
        }
