@@ -21,6 +21,8 @@
             var pass=document.getElementById('pass');
             if(user.value.trim()=="vtgadmin@gmail.com" && pass.value.trim()=="vtgadmin")
             {
+                console.log(user);
+                console.log(pass);
                 if(navigator.onLine){
                     window.location.href = "login_demo.html";
                }
