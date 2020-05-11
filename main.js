@@ -17,12 +17,12 @@
             }
         }
         if(navigator.onLine && check==true){
-            var user=document.getElementById('email');
-            var pass=document.getElementById('pass');
+            var user=document.getElementById('email').value;
+            var pass=document.getElementById('pass').value;
             console.log(user);
             console.log(pass);
                 
-            if(user.value.trim()=="vtgadmin@gmail.com" && pass.value.trim()=="vtgadmin")
+            if(user.trim()=="vtgadmin@gmail.com" && pass.trim()=="vtgadmin")
             {
                 console.log(user);
                 console.log(pass);
