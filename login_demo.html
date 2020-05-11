@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+        <title>
+            Login
+        </title>
+    </head>
+    <body>
+      <h1>Cloud Cafe</h1>  
+      <div class="content">
+        <form id="add_from_data"></form>
+        <ul id="school-list"></ul>
+      </div>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAyq3T-1jJrVuJWLggOac6uKLy4QlOO7S8",
+    authDomain: "data-4d97c.firebaseapp.com",
+    databaseURL: "https://data-4d97c.firebaseio.com",
+    projectId: "data-4d97c",
+    storageBucket: "data-4d97c.appspot.com",
+    messagingSenderId: "694523053850",
+    appId: "1:694523053850:web:470f68e96bf458f8f64ea3",
+    measurementId: "G-C2RN4QS202"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db=firebase.firestore();
+  firebase.analytics();
+</script>
+
+    
+    </script>
+    <script src="app.js"></script>
+    </body>
+</html>
