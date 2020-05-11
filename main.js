@@ -19,6 +19,9 @@
         if(navigator.onLine && check==true){
             var user=document.getElementById('email');
             var pass=document.getElementById('pass');
+            console.log(user);
+            console.log(pass);
+                
             if(user.value.trim()=="vtgadmin@gmail.com" && pass.value.trim()=="vtgadmin")
             {
                 console.log(user);
